@@ -149,6 +149,9 @@ nav.menu{
     border-radius: 4px;
     background-color: #469165;
     align-content: center;
+    display: inline-flex;
+    align-items: center;
+    color:#FFFFFF;
 
 }
 .hero-content .btn:hover{
@@ -156,7 +159,7 @@ nav.menu{
     color:#469165;
     border-color: #469165;
     border:3px solid #469165;
-    box-shadow: 0px 4px 15px rgba(70, 145, 101, 0.3);   
+    box-shadow: 0px 4px 15px rgba(77, 177, 119, 0.3);   
 }
 .hero-content .btn:hover img{
     color:#469165;
@@ -175,7 +178,7 @@ nav.menu{
     height:52px;
     color:#FFFFFF;
 }
-.hero-content .bottons.btn-secondary .fa-regular.fa-play {
+.hero-content .btn-secondary i{
     color:#FFF;
     text-decoration: none;
 
@@ -186,8 +189,31 @@ nav.menu{
     border-color: #469165;
     box-shadow: 0px 4px 15px rgba(70, 145, 101, 0.3);   
 }
-.hero-content .bottons.btn-secondary .fa-regular.fa-play:hovr{
+.hero-content.btn-secondary:hover .fa-solid{
     color:#469165;
     text-decoration: none;
+
+}
+.problems{
+    position:relative;
+    margin:0 auto;
+    max-width: 1400px;
+    height: 380px;
+    align-items:center;
+    text-align: center;
+    padding: 80px 20px;
+}
+.problems h2{
+    font-size: 48px;
+    font-weight: 700;
+    color:#001931;
+    margin-bottom:16px;
+
+}
+.problems p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#627382;
 
 }
