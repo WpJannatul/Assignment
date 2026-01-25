@@ -326,6 +326,7 @@ nav.menu{
     text-align: center;
     padding: 80px 20px;
     border-radius: 24px;
+    margin-bottom: 100px;
 }
 .think-more h1{
     font-size: 48px;
@@ -363,4 +364,32 @@ nav.menu{
     color:#627382;
     margin-bottom: 20px;
 
+}
+.footer{
+    background-color: #001931;
+    color:#FFFFFF;
+    padding: 60px 80px;
+}
+.footer-content{
+    background-color: #001931;
+    color:#FFFFFF;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 60px 80px;
+
+}
+.footer-social i{
+    font-size: 20px;
+    color:#FFFFFF;
+    margin-right:16px;
+    text-decoration: none;
+
+}
+.footer-social h5{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom:20px;
+    
 }
