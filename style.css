@@ -325,6 +325,7 @@ nav.menu{
     align-items:center;
     text-align: center;
     padding: 80px 20px;
+    border-radius: 24px;
 }
 .think-more h1{
     font-size: 48px;
@@ -350,6 +351,16 @@ nav.menu{
     border-radius: 4px;
     background-color: #469165;
     color:#FFFFFF;
-    align-items: center;
-    
+    align-content: center;
+}   
+
+
+.think-more .pay {
+    margin-top:20px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#627382;
+    margin-bottom: 20px;
+
 }
