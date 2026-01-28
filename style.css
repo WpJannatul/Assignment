@@ -82,7 +82,7 @@ nav.menu{
 }
 
 .hero-container{
-    background: url("../images/hero-bg.png") no-repeat center;
+    background: url("./images/hero-bg.png") no-repeat center;
     background-size: cover;
     height: 674px;
     padding: 160px 341px;
